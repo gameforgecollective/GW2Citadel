@@ -1,0 +1,8 @@
+GW2Citadel v0.1.53.1 - Toolbar Hotfix
+
+- Removed the unclear PEOPLE button from the top toolbar.
+- The compact combat/player table still opens automatically.
+- Combat, healing, boons, NPCs, and siege remain available from MORE.
+- No other features or antivirus-friendly packaging were changed.
+
+This hotfix replaces v0.1.53 as the recommended long-term stable download.

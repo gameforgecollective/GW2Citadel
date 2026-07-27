@@ -1,0 +1,10 @@
+GW2Citadel Security and Distribution Notes
+
+This core package does not bundle, download, extract, or install third-party game add-ons.
+It does not include command scripts, debug symbols, combat logs, browser cache, or third-party executables.
+
+Optional arcDPS providers and Elite Insights must be obtained manually from their official projects. Review those projects and their licenses before installation.
+
+Verify this package using SHA256.txt. Every file distributed in this folder is listed there.
+
+Because GW2Citadel is not digitally code-signed, Windows or antivirus products may still show a reputation warning. A warning alone is not proof of malware, but users should only run files downloaded from the official Game Forge Collective GitHub repository.
