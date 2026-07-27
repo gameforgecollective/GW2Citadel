@@ -1,202 +1,142 @@
 # GW2Citadel
-GW2Citadel is a lightweight companion overlay for Guild Wars 2. It brings combat information, healing, boons, navigation tools, maps, guides, and account information into one customizable interface.
+GW2Citadel is a lightweight Windows companion overlay for Guild Wars 2. It combines combat, healing, boons, navigation, maps, guides, and account tools in a compact interface designed to stay out of the game's way.
 
 GW2Citadel is an independent community project. It does not automate gameplay, control your character, or bypass Guild Wars 2 protections.
 
-Download
+## Download
 
-Download the newest version from the GW2Citadel Releases page.
+Download the newest version from the [GW2Citadel Releases page](https://github.com/gameforgecollective/GW2Citadel/releases/latest).
 
-Current version: v0.1.51
+**Current version: v0.1.53.1 — Toolbar Hotfix**
 
-Main features
+Download: `GW2Citadel-v0.1.53.1-Hotfix.zip`
 
-Movable and resizable in-game overlay
+## Interface
 
-Always-on-top and hide-behind-game controls
+The compact combat and player table opens automatically. Use **MORE** to access:
 
-Guild Wars 2 game detection
+- Combat, DPS, healing, and boons
+- NPC and WvW siege statistics
+- Navigation, Tyria maps, and WvW maps
+- Guild Wars 2 API tools and GW2Efficiency
+- Elite Insights
+- Community websites, guild resources, builds, and guides
+- Add-on checks, encounter resets, timers, and detailed columns
 
-Mumble Link map and character-position support
+The v0.1.53.1 hotfix removes the unclear **PEOPLE** toolbar button. No statistics, websites, guild resources, or other tools were removed.
 
-Combat, damage, DPS, healing, and boon tables
+## Main features
 
-Player, profession, NPC, pet, summon, and siege identification
+- Compact movable in-game overlay
+- Always-on-top and behind-game controls
+- Guild Wars 2 process detection
+- Mumble Link map and character-position support
+- Combat, damage, DPS, healing, and boon tables
+- Player, profession, NPC, pet, summon, and siege identification
+- Shared encounter timer with automatic reset
+- WvW and PvP support
+- Tyria and WvW map tools
+- Guild Wars 2 API integration
+- Optional Discord webhook battle reports
+- Built-in lightweight browser for community resources
+- Reduced background CPU and memory activity
 
-Shared encounter timer and automatic table reset
+## Installation
 
-Adjustable reset duration
+1. Download `GW2Citadel-v0.1.53.1-Hotfix.zip`.
+2. Extract the complete ZIP into a normal folder.
+3. Keep all included files and folders together.
+4. Run `GW2Citadel.exe`.
+5. Start Guild Wars 2.
 
-WvW and PvP support
+Guild Wars 2 and GW2Citadel should use the same administrator permission level when Mumble Link cannot be accessed.
 
-Tyria and WvW map tools
+## Antivirus-friendly package
 
-Guild Wars 2 API integration
+The stable core package does not bundle third-party game add-on DLLs or executables. It contains no command scripts, debug symbols, logs, browser cache, or automatic binary installer. A SHA-256 manifest is included.
 
-Discord webhook battle reports
+GW2Citadel remains an unsigned community application, so reputation-based warnings are still possible. Only download it from this official repository and verify the checksum published with the release.
 
-Built-in lightweight browser for community websites and guides
+## Optional add-ons
 
-Local settings saved between launches
+Install optional providers manually from their official projects:
 
-Reduced background CPU usage
+- [arcDPS](https://www.deltaconnected.com/arcdps/x64)
+- [arcDPS Healing Stats](https://github.com/Krappa322/arcdps_healing_stats)
+- [GW2 ArcDPS Boon Table](https://github.com/knoxfighter/GW2-ArcDPS-Boon-Table)
+- [arcdps_bridge](https://github.com/knobin/arcdps_bridge)
+- [axibridge](https://github.com/darkharasho/axibridge)
+- [GW2-SCT](https://github.com/jake-greygoose/GW2-SCT)
 
-Installation
+GW2Citadel can display information supplied by compatible providers, but it cannot create data that a provider does not expose.
 
-Download GW2Citadel-v0.1.51.zip.
+## Community resources
 
-Extract the entire ZIP into a normal folder.
+**MORE → TOOLS AND GUIDES** provides access to:
 
-Keep all included files and folders together.
+- [Guild Wars 2 Wiki](https://wiki.guildwars2.com/wiki/Main_Page)
+- [GW2Efficiency](https://gw2efficiency.com/)
+- [GW2Mists](https://gw2mists.com/en)
+- [GuildJen Builds](https://guildjen.com/gw2-builds/)
+- [Snow Crows](https://snowcrows.com/)
+- [Hardstuck](https://hardstuck.gg/)
+- [That Shaman World Map](https://thatshaman.com/tools/worldmap/)
+- [GW2 Elite Insights Parser](https://github.com/baaron4/GW2-Elite-Insights-Parser)
 
-Run GW2Citadel.exe.
+These independent resources are owned by their respective creators and are not affiliated with GW2Citadel.
 
-Start Guild Wars 2.
+## Guild Wars 2 API
 
-If Mumble Link cannot be accessed, close GW2Citadel and use:
+Public information works without a key. Private account, character, build, inventory, and equipment information requires an ArenaNet API key with the appropriate permissions. Create one through the official [Guild Wars 2 account website](https://account.arena.net/applications).
 
-Open GW2Citadel as Administrator.cmd
+Never publish an API key or Discord webhook URL.
 
-Guild Wars 2 and GW2Citadel should normally run with the same administrator permission level.
+## Troubleshooting
 
-Optional game add-ons
+### Guild Wars 2 is not detected
 
-Some combat, healing, and boon information requires arcDPS and compatible providers. Use:
+- Make sure Guild Wars 2 is running.
+- Match the administrator permission level of both programs.
+- Restart GW2Citadel after reaching character selection.
 
-Install GW2Citadel Game Add-ons.cmd
+### Mumble Link is unavailable
 
-Only install add-ons you trust and keep them updated from their official projects:
+- Enable the game's Mumble Link option.
+- Match the administrator permission level of Guild Wars 2.
+- Restart both applications.
 
-arcDPS
+### Combat tables are empty
 
-arcDPS Healing Stats
+- Confirm arcDPS is loaded.
+- Confirm the required bridge or provider is installed.
+- Check the provider's log for loading errors.
+- Enter combat after opening GW2Citadel.
 
-GW2 ArcDPS Boon Table
+## Safety
 
-arcdps_bridge
+GW2Citadel does not automate combat or movement, send gameplay input, modify Guild Wars 2, read undocumented game memory, alter network traffic, or bypass game protections.
 
-axibridge
+Players remain responsible for following the [Guild Wars 2 User Agreement](https://www.guildwars2.com/en/legal/guild-wars-2-user-agreement/) and ArenaNet policies.
 
-GW2Citadel can detect installed providers, but it cannot create data that an external provider does not expose.
-
-Guild Wars 2 API
-
-Public game information works without an API key. Private account, character, build, inventory, and equipment information requires an ArenaNet API key with the appropriate permissions.
-
-Create a key through the official Guild Wars 2 account website.
-
-Your API key is stored locally using Windows Credential Manager. Never post your API key publicly or include it in bug reports.
-
-Discord reports
-
-GW2Citadel can send selected encounter summaries to a Discord webhook after a battle. Reports can include combat results and win-or-loss information.
-
-Webhook posting is optional and must be enabled by the user. Treat webhook URLs like passwords and never publish them in screenshots, source files, or public issues.
-
-Community resources
-
-GW2Citadel provides convenient access to independent community resources:
-
-Guild Wars 2 Wiki
-
-GW2Efficiency
-
-GW2Mists
-
-GuildJen Builds
-
-Snow Crows
-
-Hardstuck
-
-That Shaman World Map
-
-GW2 Elite Insights Parser
-
-These websites and projects are owned by their respective creators and are not affiliated with GW2Citadel.
-
-Troubleshooting
-
-Guild Wars 2 is not detected
-
-Make sure Guild Wars 2 is running.
-
-Make sure both programs use the same administrator permission level.
-
-Restart GW2Citadel after the game reaches the character-selection screen.
-
-Mumble Link is unavailable
-
-Enable the game’s Mumble Link option.
-
-Match the administrator level of Guild Wars 2.
-
-Restart both Guild Wars 2 and GW2Citadel.
-
-Combat tables are empty
-
-Confirm arcDPS is loaded in Guild Wars 2.
-
-Confirm the required bridge or provider is installed.
-
-Check the provider’s log file for loading errors.
-
-Enter combat after opening GW2Citadel.
-
-Windows security software flags the application
-
-GW2Citadel is currently distributed as an unsigned community application. Some security programs may be cautious about new unsigned executable files.
-
-Only download GW2Citadel from this official repository. Verify the SHA-256 checksum shown in the release notes before running it.
-
-Safety
-
-GW2Citadel is intended only for displaying and analyzing information.
-
-It does not:
-
-Automate combat or movement
-
-Send gameplay input
-
-Modify Guild Wars 2
-
-Read undocumented game memory
-
-Alter network traffic
-
-Bypass anti-cheat or game protections
-
-Players remain responsible for following the Guild Wars 2 User Agreement and ArenaNet policies.
-
-Development
+## Development
 
 GW2Citadel is built for Windows using .NET 9 and WPF.
 
+```powershell
 dotnet build .\src\GW2Citadel\GW2Citadel.csproj
 dotnet run --project .\src\GW2Citadel\GW2Citadel.csproj
+```
 
-The application creates its local settings file at:
+Local settings are stored at `%LOCALAPPDATA%\GW2Citadel\settings.json`.
 
-%LOCALAPPDATA%\GW2Citadel\settings.json
+## Reporting problems
 
-Reporting problems
+Use the repository's [Issues page](https://github.com/gameforgecollective/GW2Citadel/issues). Include the GW2Citadel version, Windows version, game mode, installed providers, reproduction steps, and a screenshot with API keys and webhook URLs hidden.
 
-Use the repository’s Issues page for bugs and feature requests.
+## Credits and licenses
 
-When reporting a bug, include:
+GW2Citadel is not affiliated with or endorsed by ArenaNet or NCSOFT. Guild Wars 2 and related names and artwork belong to their respective owners. Third-party components remain subject to their original licenses; see `THIRD_PARTY_NOTICES.md`.
 
-GW2Citadel version
-
-Windows version
-
-Game mode: PvE, PvP, or WvW
-
-Installed providers and versions
-
-A screenshot with API keys and webhook URLs hidden
-
-Steps that reproduce the problem
 
 Credits and licenses
 
