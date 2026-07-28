@@ -1,4 +1,9 @@
 # GW2Citadel
+
+<p align="center">
+  <img src="assets/gw2citadel-logo.png" alt="GW2Citadel logo" width="320">
+</p>
+
 GW2Citadel is a lightweight Windows companion overlay for Guild Wars 2. It combines combat, healing, boons, navigation, maps, guides, and account tools in a compact interface designed to stay out of the game's way.
 
 GW2Citadel is an independent community project. It does not automate gameplay, control your character, or bypass Guild Wars 2 protections.
