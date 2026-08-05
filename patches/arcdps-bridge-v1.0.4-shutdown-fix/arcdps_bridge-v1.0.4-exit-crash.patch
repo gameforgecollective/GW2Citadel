@@ -1,0 +1,11 @@
+diff --git a/src/Entry.cpp b/src/Entry.cpp
+--- a/src/Entry.cpp
++++ b/src/Entry.cpp
+@@ -375,7 +375,6 @@ static uintptr_t mod_release()
+     if (AppData.Config.enabled)
+     {
+         Server->stop();
+-        Server.reset();
+     }
+ 
+     return 0;

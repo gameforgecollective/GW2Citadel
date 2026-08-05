@@ -7,9 +7,19 @@ GW2Citadel is an independent community project. It does not automate gameplay, c
 
 Download the newest version from the [GW2Citadel Releases page](https://github.com/gameforgecollective/GW2Citadel/releases/latest).
 
-**Current version: v0.1.53.1 — Toolbar Hotfix**
+**Current version: v0.1.54.2 - Exit Crash Hotfix**
 
-Download: `GW2Citadel-v0.1.53.1-Hotfix.zip`
+Download: `GW2Citadel-v0.1.54.2-Exit-Crash-Hotfix.zip`
+
+### Exit-crash fixer
+
+If Guild Wars 2 crashes while closing and `arcdps_lastcrash.log` identifies `arcdps_bridge.dll`, close the game and run:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\GW2Citadel-ExitCrash-Fixer.ps1
+```
+
+The fixer verifies the patched DLL with SHA-256 and creates a timestamped backup before installation. To undo it, add `-Restore` to the command. The patch is for `arcdps_bridge` v1.0.4 and does not change the bridge protocol.
 
 ## Interface
 
@@ -23,7 +33,7 @@ The compact combat and player table opens automatically. Use **MORE** to access:
 - Community websites, guild resources, builds, and guides
 - Add-on checks, encounter resets, timers, and detailed columns
 
-The v0.1.53.1 hotfix removes the unclear **PEOPLE** toolbar button. No statistics, websites, guild resources, or other tools were removed.
+The v0.1.54.2 hotfix adds a verified, reversible fix for the `arcdps_bridge.dll` shutdown crash. No statistics, websites, guild resources, or other tools were removed.
 
 ## Main features
 
