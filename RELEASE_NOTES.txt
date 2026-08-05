@@ -1,8 +1,9 @@
-GW2Citadel v0.1.53.1 - Toolbar Hotfix
+GW2Citadel v0.1.54.2 - Exit Crash Hotfix
 
-- Removed the unclear PEOPLE button from the top toolbar.
-- The compact combat/player table still opens automatically.
-- Combat, healing, boons, NPCs, and siege remain available from MORE.
-- No other features or antivirus-friendly packaging were changed.
+- Fixes the confirmed arcdps_bridge.dll access violation that could crash Guild Wars 2 while exiting.
+- Includes a compatibility-preserving patched build of arcdps_bridge v1.0.4.
+- Includes a reversible PowerShell fixer that backs up the installed bridge before replacement.
+- Verifies the patched bridge with SHA-256 before and after installation.
+- Includes the auditable source patch, upstream attribution, and MIT license.
 
-This hotfix replaces v0.1.53 as the recommended long-term stable download.
+Close Guild Wars 2 before running GW2Citadel-ExitCrash-Fixer.ps1.

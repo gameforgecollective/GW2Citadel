@@ -1,6 +1,6 @@
 # Third-party notices
 
-No third-party source code or binary components are included in this milestone.
+The optional exit-crash fixer includes a patched binary derived from `arcdps_bridge` v1.0.4 by Robin Gustafsson. It is distributed under the MIT License. Source: https://github.com/knobin/arcdps_bridge/tree/v1.0.4. Modification: retain the stopped server object until DLL unload to prevent a late-callback use-after-free during Guild Wars 2 shutdown. The source patch and license are included beside the binary.
 
 Projects being evaluated for optional interoperability:
 
